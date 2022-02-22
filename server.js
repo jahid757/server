@@ -21,7 +21,7 @@ const userSharesSalesRoute = require('./routes/userSharesSalesRoute')
 const userSalesRoute = require('./routes/userSalesRoute')
 
 // Set default port for express app
-const PORT = 4500
+const PORT = 4500 || process.env.PORT
 
 console.log("PORT IN SERVER: ", PORT)
 
